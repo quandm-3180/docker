@@ -72,7 +72,7 @@ return [
     /*
     |--------------------------------------------------------------------------
     | Application Locale Configuration
-    |--------------------------------------------------------------------------
+    |-------------------------------------------------------------------------
     |
     | The application locale determines the default locale that will be used
     | by the translation service provider. You are free to set this value
@@ -161,6 +161,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Pallares\LaravelNuxt\LaravelNuxtServiceProvider::class,
 
         /*
          * Package Service Providers...

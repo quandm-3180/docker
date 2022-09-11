@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/quan', function () {
+//     return dd(333);
+// });
+Route::get(
+    '{uri}',
+    '\\' . Pallares\LaravelNuxt\Controllers\NuxtController::class
+)->where('uri', '.*');
