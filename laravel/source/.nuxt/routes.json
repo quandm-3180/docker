@@ -1,0 +1,23 @@
+[
+  {
+    "name": "quan",
+    "path": "/quan",
+    "component": "/var/www/laravel/resources/nuxt/pages/quan.vue",
+    "chunkName": "pages/quan",
+    "_name": "_3c433867"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/var/www/laravel/resources/nuxt/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_66214d2c"
+  },
+  {
+    "name": "__laravel_nuxt__",
+    "path": "/__laravel_nuxt__",
+    "component": "/var/www/laravel/resources/nuxt/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_66214d2c"
+  }
+]
