@@ -5,4 +5,4 @@ jobs:
     stage: test
     image: alpine
     script: 
-      - echo docker-laravel-nuxt
+      - echo 123
